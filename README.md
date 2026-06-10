@@ -1,28 +1,59 @@
-# 🚗 Car Rental Management System
+# 🚗 Car Rental Management System (C++)
 
-## 📖 Description
-A console-based C++ Car Rental Management System that allows users to book cars, manage customer details, calculate rental charges, and generate payment receipts using an admin and customer interface.
+A console-based **Car Rental Management System** developed in C++ using Object-Oriented Programming (OOP) concepts. This project simulates a real-world rental service where users can log in as **Admin** or **Customer** and manage car bookings, payments, and records.
 
-## 🚀 Features
-- Admin & Customer login system  
-- Car selection (Normal & Bridal cars)  
-- Customer profile management  
-- Booking and cancellation system  
-- Automatic rent calculation with discount  
-- Payment receipt generation  
-- File handling for saving records  
-- Feedback system  
+---
+
+## 📌 Features
+
+### 🔐 Authentication System
+- Admin Login (secure with attempts limit)
+- Customer Registration & Login system
+
+### 👨‍💼 Admin Features
+- Add Customer Information
+- View Available Cars (Bridal & Normal)
+- Manage Car Bookings
+- Generate Payment Receipts
+- Handle Installment Payments
+- Save Records to File
+- View Saved Records
+
+### 🚘 Customer Features
+- View Available Cars
+- Book Cars (Bridal & Normal categories)
+- View Booking Details
+- Update Profile Information
+- View Company Policies
+- Cancel Bookings
+- Submit Feedback
+
+### 💰 Payment System
+- Automatic bill calculation
+- Discount system (15% for long distance > 200 km)
+- Installment-based payment support
+- Payment history tracking
+- Change/remaining balance calculation
+
+### 📂 File Handling
+- Stores booking and payment records in `File.txt`
+
+---
+
+## 🧠 OOP Concepts Used
+- Classes & Objects
+- Inheritance (Admin & Customer → User)
+- Polymorphism (Function Overriding & Overloading)
+- Encapsulation
+- Static Members
+- Constructors & Destructors
+
+---
 
 ## 🛠️ Technologies Used
-- C++  
-- OOP (Inheritance, Polymorphism, Encapsulation)  
-- File Handling  
-- Windows system functions (Sleep, getch)
+- C++
+- Windows API (`Sleep`)
+- Console-based UI
+- File Handling (`fstream`)
 
-## 🧠 Concepts Applied
-- Classes & Objects  
-- Abstract Classes & Virtual Functions  
-- Function Overloading  
-- Static Data Members  
-- Switch Case & Loops  
-- Structured Programming  
+---
